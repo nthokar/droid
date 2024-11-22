@@ -57,9 +57,8 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.2.2")
     implementation("com.github.javafaker:javafaker:1.0.2")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation ("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 
-
-    implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.core.ktx)
